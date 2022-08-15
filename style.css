@@ -6,13 +6,13 @@ body {
 .topbox {
   background-color: #1F2937;
   flex: 1;
-  width: 100vw;
+  padding-bottom: 80px;
 }
 
 .header {
   color: white;
   display: flex;
-  padding: 0px 300px 100px 300px;
+  padding: 0px 250px 100px 250px;
 }
 .logo {
   font-size: 24px;
@@ -28,4 +28,51 @@ body {
   flex: 1;
   color: #E5E7EB;
   text-decoration: none;
+}
+
+.topboxcontent {
+  display: flex;
+  flex-direction: row;
+  padding-right: 250px;
+}
+
+.topboxleft {
+  padding-left: 250px;
+  color: #F9FAF8;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: extra-bold;
+  padding-bottom: 10px;
+}
+
+.text {
+  font-weight: lighter;
+  padding-bottom: 20px; 
+}
+
+button {
+  padding: 8px 20px; 
+  border-radius: 8px;
+  width: 100px;
+  flex: 0;
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+.topboxright {
+  display: flex;
+  width: 400px;
+  height: 229px;
+  background-color: #E5E7EB;
+  column-rule-color: #F9FAF8;
+  margin-left: auto;
+  justify-content: center;
+  align-items: center;
+  
 }
