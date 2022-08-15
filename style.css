@@ -1,6 +1,8 @@
 body {
   font-family: sans-serif;
   display: flex;
+  flex-direction: column;
+  flex: 0;
 }
 
 .topbox {
@@ -75,4 +77,45 @@ button {
   justify-content: center;
   align-items: center;
   
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 36px;
+  padding: 20px 0px;
+}
+
+
+
+
+.cboxparent {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 40px ;
+}
+
+.columnbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  padding: 25px;
+  border: 2px solid #3882F6;
+  border-radius: 25px;
+}
+
+.boxinfo {
+  width: 120px;
+  font-size: 18px;
+  color: #1F2937;
+  text-align: center;
+  padding: 20px 0px;
 }
