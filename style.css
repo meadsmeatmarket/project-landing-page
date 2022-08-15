@@ -2,7 +2,6 @@ body {
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
-  flex: 0;
 }
 
 .topbox {
@@ -87,9 +86,6 @@ button {
   padding: 20px 0px;
 }
 
-
-
-
 .cboxparent {
   display: flex;
   flex-direction: row;
@@ -118,4 +114,31 @@ button {
   color: #1F2937;
   text-align: center;
   padding: 20px 0px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  padding: 100px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+.quotebox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+}
+
+.qtext{ 
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+  padding-bottom: 20px;
+}
+.qspeaker {
+  margin-left: auto;
+  font-weight: bold;
 }
